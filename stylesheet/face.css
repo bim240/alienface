@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* ====================================
+      eye
+==================================== */
+.eye {
+    margin: 50px auto;
+    width: 500px;
+
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(-45deg);
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    margin: 0 130px 0 0;
+    margin-top: 200px;
+}
+
+
+/* ====================================
+     left eye
+==================================== */
+.eyeL {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* margin: 250px 300px; */
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid black; */
+    border-radius: 100% 10px 100% 0;
+    box-shadow: 0 0 5px 3px rgb(185, 184, 184);
+    text-align: center;
+   
+    transform:rotate(44deg);
+    background-color:rgb(243, 243, 243);
+}
+.eye2 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 3px black;
+    border-radius: 50%;
+    background-color: #38101c;
+    
+}
+
+.eye3 {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.eye4 {
+    width: 10px;
+    height: 10px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin: 3px;
+    background-color: blanchedalmond;
+    box-shadow: 2px 2px 7px white;
+
+}
+
+/* ====================================
+     right eye
+==================================== */
+
+
+.eyeR {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* margin: 250px 300px; */
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid black; */
+    border-radius: 100% 0 100% 10px;
+    box-shadow: 0 0 5px 3px rgb(185, 184, 184);
+    text-align: center;
+   
+    transform:rotate(44deg);
+    background-color:rgb(243, 243, 243);
+}
+/* ====================================
+     face
+==================================== */
+
+.face {
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-around; */
+    align-items: center;
+
+    margin: 100px auto;
+    width: 700px;
+    height: 700px;
+    border: 2px solid black;
+    transform: rotate(45deg);
+    border-radius: 60% 30% 25% 30%;
+    background-color: rgb(0, 150, 20);
+}
+
+/* ====================================
+     eyebrow
+==================================== */
+
+.eyebrow {
+    /* margin: 100px; */
+    width: 200px;
+    height: 5px;
+    border: 2px solid #25110D;
+    border-radius: 100% 100% 0 100%;
+    background-color: #25110D;
+    /* transform: (90deg); */
+    /* margin-right: 30px; */
+    /* padding: 50px; */
+}
+
+/* ====================================
+     nose
+==================================== */
+.noseL {
+    margin-right: 2px;
+    width: 25px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 100% 0 0 0;
+    background-color: black;
+}
+.noseR {
+   width: 25px;
+   height: 50px;
+   border: 1px solid black;
+   border-radius: 0 100% 0 0;
+   background-color: black;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    transform: rotate(-45deg);
+    /* border: 1px solid black; */
+    /* margin-top: 120px; */
+    margin-left: 72px;
+}
+
+/* ====================================
+     nose
+==================================== */
+.mouth{
+
+    width: 175px;
+    height: 175px;
+    border-radius: 100% 30% 25% 30%;
+    border:1px solid black;
+    transform: rotate(45deg);
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0);
+}
+
+.border {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: center;
+    transform: rotate(-45deg);
+    width: 500px;
+    /* margin-top: 40px; */
+    margin-left: 342px;
+    
+    /* border: 1px solid black; */
+}
